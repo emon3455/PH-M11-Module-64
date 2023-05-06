@@ -20,7 +20,12 @@ function App() {
     <>
      
       <h1>Users Managements system</h1>
-      <p>{users.length}</p>
+      <p>Total users: {users.length}</p>
+      <div className="">
+        {
+          users.map(user=> <p key={user.id}> {user.id} : {user.name} : {user.email} </p>)
+        }
+      </div>
     
     </>
   )
