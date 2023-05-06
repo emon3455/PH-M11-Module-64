@@ -40,3 +40,15 @@
 .read-the-docs {
   color: #888;
 }
+
+.mb-1{
+  margin-bottom: 1rem;
+}
+
+.p-1{
+  padding: 1rem;
+}
+
+.bg-sky-light{
+  background-color: #d8eeff;
+}
